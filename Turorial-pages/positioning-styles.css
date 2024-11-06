@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    color: darkgreen
+}
+
+h2, h3 {
+    color: darkgreen;
+}
+
+.button-display {
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    border: 5px dashed lightgreen;
+}
+
+.button-display h3{
+    margin: 0;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    margin: 0 5px;
+    border: 0;
+    background-color: olivedrab;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.demo-display-box {
+    width: 300px;
+    height: 300px;
+    border: 5px solid lightgreen;
+    margin: 20px auto;
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.demo-display-box p {
+    width: 50px;
+}
+
+.info-line {
+    display: flex;
+}
+
+.info-line p {
+    margin: 0 0 0 20px;
+}
+
+#demo-div {
+    display: flex;
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 206, 11);
+    z-index: -1;
+    border: 3px solid darkgreen;
+    
+}
+
+#demo-div p {
+    text-align: center;
+    margin: 85px 0 0 0;
+    width: 150px;
+    height: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 12pt;
+}

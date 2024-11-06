@@ -17,13 +17,20 @@ h2 {
 }
 
 a {
-    color: rgb(242, 147, 255);
-    text-align: right;
-
+    color: greenyellow;
 }
 
 hr {
     border: 2px solid #6A1E55;
+}
+
+.turorials-section {
+    padding: 10px;
+}
+
+.turorials-section > h2 {
+    color:#A64D79;
+    margin: 0 0 0 20px;
 }
 
 .tutorial-box {
@@ -31,6 +38,11 @@ hr {
     background-color: #A64D79;
     padding: 10px;
     border: 5px dashed #6A1E55;
+    text-align: left;
+}
+
+.tutorial-box p {
+    color: #1A1A1D;
 }
 
 .tutorial-box h2{
@@ -42,7 +54,8 @@ hr {
 }
 
 .tutorial-link a {
-    text-align: right;
+    color: greenyellow;
     text-decoration: none;
     margin: 0 20px 0 0;
+    width: 100%;
 }
