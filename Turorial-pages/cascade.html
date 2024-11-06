@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Intermediate CSS Tutorials Webpage</title>
+        <link rel="stylesheet" href="./cascade-styles.css">
+    </head>
+    <body>
+        <h1>The Cascade - Specificity and Inheritance</h1>     
+        <div id="outer-box" class="box">
+            <div class="box">
+                <p>Yellow Text</p>
+                <div class="box inner-box">
+                    <p class="white-text">White Text</p>
+                </div>
+            </div>
+            <div class="box">
+                <p>Yellow Text</p>
+                <div class="box inner-box">
+                    <p draggable="true" class="white-text">White Text</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <a href="../index.html">Return to Intermediate CSS tutorials</a>
+    </body>
+</html>

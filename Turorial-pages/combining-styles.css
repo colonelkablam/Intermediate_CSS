@@ -1,0 +1,25 @@
+/* group selection*/
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* child selector*/
+.box > p {
+    color: firebrick;
+}
+
+/* decendant selector*/
+.box li {
+    color: blue;
+}
+
+/* chaining selector*/
+li.done {
+    color: seagreen;
+}
+
+/* combining selectors*/
+ul > p.done {
+    font-size: 0.5rem;
+}

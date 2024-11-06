@@ -1,0 +1,48 @@
+body {
+    background-color: #1A1A1D;
+}
+
+#page-wrapper {
+    width: 70%;
+    margin-left: 15%;
+}
+
+h1 {
+    color: #A64D79;
+    text-align: center;
+}
+
+h2 {
+    color: #3B1C32;
+}
+
+a {
+    color: rgb(242, 147, 255);
+    text-align: right;
+
+}
+
+hr {
+    border: 2px solid #6A1E55;
+}
+
+.tutorial-box {
+    margin: 20px;
+    background-color: #A64D79;
+    padding: 10px;
+    border: 5px dashed #6A1E55;
+}
+
+.tutorial-box h2{
+    margin: 0 0 10px 0;
+}
+
+.tutorial-link {
+    text-align: right;
+}
+
+.tutorial-link a {
+    text-align: right;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}

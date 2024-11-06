@@ -20,3 +20,7 @@ p {
 .white-text {
     color: white;
 }
+
+p[draggable=true] {
+    color: green;
+}
