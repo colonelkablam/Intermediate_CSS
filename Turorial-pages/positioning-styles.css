@@ -40,21 +40,26 @@ h2, h3 {
     height: 300px;
     border: 5px solid lightgreen;
     margin: 20px auto;
-    padding-top: 20px;
     position: relative;
 
 }
 
-.demo-display-box p {
-    width: 50px;
+#demo-div-parent-text {
+    text-align: center;
+    font-size: 10pt;
+    margin: 0px;
+    position:relative;
+    top: -11px
 }
 
 .info-line {
     display: flex;
 }
 
-.info-line p {
-    margin: 0 0 0 20px;
+.info-line > p, .info-line > input {
+    position: relative;
+    margin: 0 0 0 0px;
+    width: 100px;
 }
 
 #demo-div {
