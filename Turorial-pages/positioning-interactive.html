@@ -16,8 +16,8 @@
                 <button onclick="changePositionProperty('demo-div', 'fixed')">Fixed</button>
             </div>
         </div>
-        <div class="demo-display-box">
-            <p id="demo-div-parent-text" >This div position set to 'relative'</p>
+        <div id="demo-parent-box">
+            <p id="demo-parent-box-text" >This div position is not set</p>
             <div class="info-line">
                 <p>position: </p>
                 <p id="position-value">null</p>
@@ -39,11 +39,37 @@
             </div>
 
         </div>
+        
+        <button id="toggle-div-parent-button" onclick="toggleIfPositionPropertySet()">toggle parent div position set</button><br>
 
         <a style="margin-left: 30px" href="../index.html">Return to Intermediate CSS tutorials</a>
 
     </body>
     <script>
+
+        let buttonCount = 0;
+
+        function toggleIfPositionPropertySet() {
+            const parentDiv = document.getElementById("demo-parent-box");
+            const parentDivText = document.getElementById("demo-parent-box-text");
+
+            buttonCount++;
+
+            console.log("Button Pressed!" + buttonCount);
+
+            if (buttonCount % 2 == 1) {
+                parentDiv.style.position = "relative";
+                parentDivText.textContent = "This div position set to 'relative'"
+                console.log("set to rel");
+
+            } else {
+                parentDiv.style.removeProperty("position");
+                parentDivText.innerText = "This div position is not set"
+                console.log("set to null");
+            }
+
+        }   
+
         function changePositionProperty(id, newProperty) {            
             topValue = document.getElementById("top-value").value;
             leftValue = document.getElementById("left-value").value;
