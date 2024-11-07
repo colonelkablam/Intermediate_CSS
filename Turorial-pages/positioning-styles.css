@@ -62,7 +62,11 @@ button {
 .info-line > p, .info-line > input {
     position: relative;
     margin: 0 0 0 0px;
-    width: 100px;
+    width: 60px;
+}
+
+input {
+    width: 45px !important;
 }
 
 #demo-div {
